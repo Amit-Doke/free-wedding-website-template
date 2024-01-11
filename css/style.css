@@ -43,7 +43,12 @@
 
 @font-face{
   font-family: 'manthan';
-  src: url("./AMSManthanRegular.ttf");
+  src: url("./AMSVasudevaRegular.ttf");
+}
+
+@font-face{
+  font-family: 'dev';
+  src: url("./TiroDevanagariMarathi.ttf");
 }
 
 *,
@@ -72,6 +77,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 .bannerSubHeading{
   font-family: manthan !important;
+}
+
+.content{
+  font-family: dev;
 }
 
 body {
