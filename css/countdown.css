@@ -1,35 +1,37 @@
 @import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
 
 #days {
-  font-size: 140px;
+  font-size: 7rem;
   color: #fff01d;
 }
 #hours {
-  font-size: 110px;
+  font-size: 5rem;
   color: #f07c22;
 }
 #minutes {
-  font-size: 80px;
+  font-size: 3rem;
   color: #f6da74;
 }
 #seconds {
-  font-size: 60px;
+  font-size: 2rem;
   color: #abcd58;
 }
 
-.timer-container {
+/* .timer-container {
   line-height: 1;
-  padding: 2px;
+  padding: 2rem;
   font-size: 40px;
-}
+} */
 
-span {
+.count-text {
   display: block;
-  font-size: 40px;
+  font-size: 2rem;
   color: white;
 }
 
 .timer-body {
+  margin: 1rem;
+  padding: 1rem;
   text-align: center;
   font-weight: 900;
   font-family: amit;

@@ -17,10 +17,10 @@ function makeTimer() {
     if (minutes < "10") { minutes = "0" + minutes; }
     if (seconds < "10") { seconds = "0" + seconds; }
 
-    $("#days").html(days + "<span>दिवस</span>");
-    $("#hours").html(hours + "<span>तास</span>");
-    $("#minutes").html(minutes + "<span>मिनीटे</span>");
-    $("#seconds").html(seconds + "<span>सेकंड</span>");		
+    $("#days").html(days + "<div class='count-text'>दिवस</div>");
+    $("#hours").html(hours + "<div class='count-text'>तास</div>");
+    $("#minutes").html(minutes + "<div class='count-text'>मिनीटे</div>");
+    $("#seconds").html(seconds + "<div class='count-text'>सेकंड</div>");		
 
 }
 
