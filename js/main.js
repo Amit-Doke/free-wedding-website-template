@@ -55,11 +55,11 @@ gsap.to(".about-frame", {
         console.log($videoSrc);
 
         $('#videoModal').on('shown.bs.modal', function (e) {
-            $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+            $("#video").attr('src', $videoSrc);
         })
 
         $('#videoModal').on('hide.bs.modal', function (e) {
-            $("#video").attr('src', $videoSrc);
+            $("#video").attr('src', '');
         })
     });
 
